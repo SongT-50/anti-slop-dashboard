@@ -44,7 +44,7 @@ Real-time AI content detection dashboard for English and Korean text. Analyzes t
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/anti-slop-dashboard.git
+git clone https://github.com/SongT-50/anti-slop-dashboard.git
 cd anti-slop-dashboard
 
 # Install dependencies
