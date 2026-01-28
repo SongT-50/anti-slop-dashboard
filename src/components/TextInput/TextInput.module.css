@@ -1,0 +1,107 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #e0e0e0;
+}
+
+.textareaWrapper {
+  position: relative;
+}
+
+.textarea {
+  width: 100%;
+  min-height: 200px;
+  padding: 16px;
+  background: #1a1a24;
+  border: 1px solid #2a2a3a;
+  border-radius: 8px;
+  color: #e0e0e0;
+  font-size: 14px;
+  line-height: 1.6;
+  resize: vertical;
+  font-family: inherit;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.textarea:focus {
+  outline: none;
+  border-color: #4a4a6a;
+  box-shadow: 0 0 0 3px rgba(100, 100, 200, 0.1);
+}
+
+.textarea::placeholder {
+  color: #666;
+}
+
+.charCount {
+  position: absolute;
+  bottom: 8px;
+  right: 12px;
+  font-size: 11px;
+  color: #666;
+}
+
+.highlightedText {
+  min-height: 200px;
+  padding: 16px;
+  background: #1a1a24;
+  border: 1px solid #2a2a3a;
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.sentence {
+  transition: background-color 0.2s;
+}
+
+.sentenceHigh {
+  background: rgba(255, 100, 100, 0.3);
+  border-radius: 2px;
+}
+
+.sentenceMedium {
+  background: rgba(255, 200, 100, 0.2);
+  border-radius: 2px;
+}
+
+.sentenceLow {
+  background: rgba(100, 255, 100, 0.1);
+  border-radius: 2px;
+}
+
+.tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.tab {
+  padding: 8px 16px;
+  background: transparent;
+  border: 1px solid #2a2a3a;
+  border-radius: 6px;
+  color: #888;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.tab:hover {
+  background: #1a1a24;
+  color: #e0e0e0;
+}
+
+.tabActive {
+  background: #2a2a4a;
+  border-color: #4a4a6a;
+  color: #e0e0e0;
+}

@@ -1,0 +1,154 @@
+.container {
+  background: #12121a;
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #e0e0e0;
+}
+
+.resetButton {
+  padding: 4px 10px;
+  background: transparent;
+  border: 1px solid #3a3a4a;
+  border-radius: 4px;
+  color: #888;
+  font-size: 11px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.resetButton:hover {
+  background: #2a2a3a;
+  color: #e0e0e0;
+}
+
+.section {
+  margin-bottom: 16px;
+}
+
+.sectionTitle {
+  font-size: 11px;
+  font-weight: 600;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+}
+
+.toggleGroup {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.toggle {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 10px;
+  background: #1a1a24;
+  border: 1px solid #2a2a3a;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.toggle:hover {
+  background: #222230;
+}
+
+.toggleActive {
+  background: #2a2a4a;
+  border-color: #4a4a6a;
+}
+
+.toggleCheckbox {
+  width: 14px;
+  height: 14px;
+  accent-color: #6c8;
+}
+
+.toggleLabel {
+  font-size: 12px;
+  color: #aaa;
+  user-select: none;
+}
+
+.toggleActive .toggleLabel {
+  color: #e0e0e0;
+}
+
+.sliderSection {
+  margin-top: 16px;
+}
+
+.sliderHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.sliderLabel {
+  font-size: 12px;
+  color: #888;
+}
+
+.sliderValue {
+  font-size: 12px;
+  color: #e0e0e0;
+  font-weight: 600;
+}
+
+.slider {
+  width: 100%;
+  height: 6px;
+  -webkit-appearance: none;
+  appearance: none;
+  background: #2a2a3a;
+  border-radius: 3px;
+  outline: none;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #6c8;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.slider::-webkit-slider-thumb:hover {
+  transform: scale(1.1);
+}
+
+.slider::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #6c8;
+  cursor: pointer;
+  border: none;
+}
+
+.colorIndicator {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 4px;
+}
